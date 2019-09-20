@@ -25,11 +25,24 @@ $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
-$primary: $blue !default;
-$secondary: $gray-600 !default;
+$buildpals-blue: #2A3E55 !default;
+$buildpals-gold: #F9B13C !default;
+
+$primary: $buildpals-gold !default;
+$secondary: $buildpals-blue !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-800 !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+.st1{fill:#2A3E55;}
+.st14{fill:#1C2A38;}
+.st2{fill:#F9B13C;}
+.st11{fill:#F9B13B;}
+.st3{fill:#D6902A;}
+.st4{fill:#FFFFFF;}
